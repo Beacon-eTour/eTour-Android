@@ -1,8 +1,11 @@
 ## Overview
 
-This is an Android Studio reference app for the AndroidBeaconLibrary
+This is an Android app for eTour. Utilizing [AndroidBeaconLibrary](https://altbeacon.github.io/android-beacon-library/)
 
 ## Project Setup
 
-1. Install [Android Studio](https://developer.android.com/sdk/installing/studio.html) 3.1.1
-2. Open this project
+1. Install [Android Studio](https://developer.android.com/sdk/installing/studio.html)
+
+2. Clone the Android project in the same directory with the Flutter module from the below repository.
+
+3. Open the project with Android studio
