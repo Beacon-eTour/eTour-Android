@@ -1,0 +1,11 @@
+//include ':android-beacon-library:lib'
+include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  '../eTourFlutterModule/.android/include_flutter.groovy'
+))
+
+
+include ':eTourFlutterModule'
+project(':eTourFlutterModule').projectDir = new File('../eTourFlutterModule')
